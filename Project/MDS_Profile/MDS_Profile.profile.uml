@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_FU_PsDoNEeuByZZtW5edpw" name="MDS_Profile" metaclassReference="_rEW_EDoNEeuByZZtW5edpw _rEaCYDoNEeuByZZtW5edpw">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__8NXsDoNEeuByZZtW5edpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_3zSswEJFEeu0iKZIHpHzUA" name="MDS_Profile" nsURI="http:///schemas/MDS_Profile/_3zPpcEJFEeu0iKZIHpHzUA/1" nsPrefix="MDS_Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3zVwEkJFEeu0iKZIHpHzUA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3zVwE0JFEeu0iKZIHpHzUA" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3zVwFEJFEeu0iKZIHpHzUA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3zVwFUJFEeu0iKZIHpHzUA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3zVwFkJFEeu0iKZIHpHzUA" key="Date" value="2020-12-19"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3zVwF0JFEeu0iKZIHpHzUA" key="Author" value="Vasco Amaral"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_3zSswUJFEeu0iKZIHpHzUA" name="Boundary">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3zSswkJFEeu0iKZIHpHzUA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_urh6EDoNEeuByZZtW5edpw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3zSsw0JFEeu0iKZIHpHzUA" name="base_Lifeline" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3zSsxUJFEeu0iKZIHpHzUA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_3zSsx0JFEeu0iKZIHpHzUA" name="Control">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3zSsyEJFEeu0iKZIHpHzUA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_u2JOoDoNEeuByZZtW5edpw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3zSsyUJFEeu0iKZIHpHzUA" name="base_Lifeline" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3zSsy0JFEeu0iKZIHpHzUA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_3zSszUJFEeu0iKZIHpHzUA" name="Entity">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3zSszkJFEeu0iKZIHpHzUA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_vGpIwDoNEeuByZZtW5edpw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3zSsz0JFEeu0iKZIHpHzUA" name="base_Lifeline" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3zSs0UJFEeu0iKZIHpHzUA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="__8N-wDoNEeuByZZtW5edpw" name="MDS_Profile" nsURI="http:///schemas/MDS_Profile/__8JGQDoNEeuByZZtW5edpw/0" nsPrefix="MDS_Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__8PM4zoNEeuByZZtW5edpw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__8PM5DoNEeuByZZtW5edpw" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__8PM5ToNEeuByZZtW5edpw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__8PM5joNEeuByZZtW5edpw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__8PM5zoNEeuByZZtW5edpw" key="Date" value="2020-12-09"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__8PM6DoNEeuByZZtW5edpw" key="Author" value="Vasco"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__8N-wToNEeuByZZtW5edpw" name="Boundary">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__8N-wjoNEeuByZZtW5edpw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_urh6EDoNEeuByZZtW5edpw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__8N-wzoNEeuByZZtW5edpw" name="base_Lifeline" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__8N-xToNEeuByZZtW5edpw" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__8N-xzoNEeuByZZtW5edpw" name="Control">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__8N-yDoNEeuByZZtW5edpw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_u2JOoDoNEeuByZZtW5edpw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__8N-yToNEeuByZZtW5edpw" name="base_Lifeline" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__8N-yzoNEeuByZZtW5edpw" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__8N-zToNEeuByZZtW5edpw" name="Entity">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__8N-zjoNEeuByZZtW5edpw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_vGpIwDoNEeuByZZtW5edpw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__8N-zzoNEeuByZZtW5edpw" name="base_Lifeline" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__8N-0ToNEeuByZZtW5edpw" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_rEW_EDoNEeuByZZtW5edpw" alias="Class">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_rEaCYDoNEeuByZZtW5edpw" alias="Lifeline">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Lifeline"/>
+  </elementImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_FqIZQDoNEeuByZZtW5edpw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_FqQ8IDoNEeuByZZtW5edpw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_urh6EDoNEeuByZZtW5edpw" name="Boundary">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zqB0YDoNEeuByZZtW5edpw" name="base_Lifeline" association="_zp874DoNEeuByZZtW5edpw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Lifeline"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zqB0YToNEeuByZZtW5edpw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0I-aMDoNEeuByZZtW5edpw" name="base_Class" association="_0I8lADoNEeuByZZtW5edpw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0I-aMToNEeuByZZtW5edpw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_u2JOoDoNEeuByZZtW5edpw" name="Control">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0pVVQDoNEeuByZZtW5edpw" name="base_Lifeline" association="_0pUHIDoNEeuByZZtW5edpw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Lifeline"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0pVVQToNEeuByZZtW5edpw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1Mqr0ToNEeuByZZtW5edpw" name="base_Class" association="_1MqEwDoNEeuByZZtW5edpw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1Mqr0joNEeuByZZtW5edpw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_vGpIwDoNEeuByZZtW5edpw" name="Entity">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1xQmoDoNEeuByZZtW5edpw" name="base_Lifeline" association="_1xPYgDoNEeuByZZtW5edpw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Lifeline"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1xQmoToNEeuByZZtW5edpw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2TctsToNEeuByZZtW5edpw" name="base_Class" association="_2TcGoDoNEeuByZZtW5edpw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2TctsjoNEeuByZZtW5edpw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_zp874DoNEeuByZZtW5edpw" name="E_Boundary_Lifeline8" memberEnd="_zqBNUDoNEeuByZZtW5edpw _zqB0YDoNEeuByZZtW5edpw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_zqBNUDoNEeuByZZtW5edpw" name="extension_Boundary" type="_urh6EDoNEeuByZZtW5edpw" aggregation="composite" association="_zp874DoNEeuByZZtW5edpw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_0I8lADoNEeuByZZtW5edpw" name="E_Boundary_Class9" memberEnd="_0I9zIDoNEeuByZZtW5edpw _0I-aMDoNEeuByZZtW5edpw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_0I9zIDoNEeuByZZtW5edpw" name="extension_Boundary" type="_urh6EDoNEeuByZZtW5edpw" aggregation="composite" association="_0I8lADoNEeuByZZtW5edpw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_0pUHIDoNEeuByZZtW5edpw" name="E_Control_Lifeline10" memberEnd="_0pUuMDoNEeuByZZtW5edpw _0pVVQDoNEeuByZZtW5edpw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_0pUuMDoNEeuByZZtW5edpw" name="extension_Control" type="_u2JOoDoNEeuByZZtW5edpw" aggregation="composite" association="_0pUHIDoNEeuByZZtW5edpw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_1MqEwDoNEeuByZZtW5edpw" name="E_Control_Class11" memberEnd="_1Mqr0DoNEeuByZZtW5edpw _1Mqr0ToNEeuByZZtW5edpw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_1Mqr0DoNEeuByZZtW5edpw" name="extension_Control" type="_u2JOoDoNEeuByZZtW5edpw" aggregation="composite" association="_1MqEwDoNEeuByZZtW5edpw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_1xPYgDoNEeuByZZtW5edpw" name="E_Entity_Lifeline12" memberEnd="_1xP_kDoNEeuByZZtW5edpw _1xQmoDoNEeuByZZtW5edpw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_1xP_kDoNEeuByZZtW5edpw" name="extension_Entity" type="_vGpIwDoNEeuByZZtW5edpw" aggregation="composite" association="_1xPYgDoNEeuByZZtW5edpw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_2TcGoDoNEeuByZZtW5edpw" name="E_Entity_Class13" memberEnd="_2TctsDoNEeuByZZtW5edpw _2TctsToNEeuByZZtW5edpw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_2TctsDoNEeuByZZtW5edpw" name="extension_Entity" type="_vGpIwDoNEeuByZZtW5edpw" aggregation="composite" association="_2TcGoDoNEeuByZZtW5edpw"/>
+  </packagedElement>
+</uml:Profile>
